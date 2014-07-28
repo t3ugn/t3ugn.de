@@ -1,6 +1,6 @@
 {
-    "name": "typo3/neos-base-distribution",
-    "description": "TYPO3 Neos Base Distribution",
+    "name": "t3ugn/t3ugn-de",
+    "description": "t3ugn.de",
     "license": "GPL-3.0+",
     "config": {
         "vendor-dir": "Packages/Libraries",
@@ -9,9 +9,14 @@
     "require": {
         "typo3/neos": "1.1.*",
         "typo3/neos-nodetypes": "1.1.*",
-        "typo3/neosdemotypo3org": "1.1.*",
-        "typo3/neos-kickstarter": "1.1.*"
+        "t3ugn/t3ugnde": "dev-master"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com:t3ugn/t3ugn-site.git"
+        }
+    ],
     "require-dev": {
         "typo3/buildessentials": "2.2.*",
         "mikey179/vfsstream": "1.2.*",
